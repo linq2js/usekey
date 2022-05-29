@@ -1,6 +1,6 @@
 {
   "name": "usekey",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A React hook for generation key of list item",
   "author": "linq2js <linqtojs@gmail.com>",
   "repository": {
