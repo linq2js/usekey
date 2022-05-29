@@ -1,5 +1,5 @@
 {
-  "name": "usekey",
+  "name": "react-usekey",
   "version": "0.0.1",
   "description": "A React hook for generation key of list item",
   "author": "linq2js <linqtojs@gmail.com>",
@@ -31,5 +31,6 @@
     "clean": "rm -rf dist build package",
     "ts-node": "ts-node",
     "build": "rimraf dist && tsc"
-  }
+  },
+  "gitHead": "e96377493a6d9669d5aadbef3fc87ecefa8ca595"
 }
