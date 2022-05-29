@@ -1,32 +1,30 @@
-# `usekey`
+# `objkey`
 
-A React hook for generation key of list item
+Object key generator
 
 ## Installation
 
 **with NPM**
 
 ```bash
-npm i usekey --save
+npm i objkey --save
 ```
 
 **with YARN**
 
 ```bash
-yarn add usekey
+yarn add objkey
 ```
 
 ## Usages
 
 ```js
-import useKey from "useKey";
+import keyOf from "objkey";
 
 // a todo list without key/id prop
 const todos = [{ title: "Todo1" }, { title: "Todo2" }, { title: "Todo3" }];
 
 export default function App() {
-  // retrieve key generator
-  const keyOf = useKey();
   return (
     <div className="App">
       {todos.map((todo) => (
@@ -39,3 +37,5 @@ export default function App() {
   );
 }
 ```
+
+## Documentations

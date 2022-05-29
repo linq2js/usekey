@@ -1,7 +1,7 @@
 {
-  "name": "react-usekey",
+  "name": "objkey",
   "version": "0.0.2",
-  "description": "A React hook for generation key of list item",
+  "description": "Object key generator",
   "author": "linq2js <linqtojs@gmail.com>",
   "repository": {
     "url": "https://github.com/linq2js/usekey"
@@ -32,5 +32,5 @@
     "ts-node": "ts-node",
     "build": "rimraf dist && tsc"
   },
-  "gitHead": "e96377493a6d9669d5aadbef3fc87ecefa8ca595"
+  "gitHead": "5df0159afe92ba107b1f56a362ade6f893d426c0"
 }

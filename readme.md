@@ -1,5 +1,5 @@
 # `usekey`
 
-A React hook for generation key of list item
+Object key generator
 
 [Documentation](./packages/usekey/readme.md)
