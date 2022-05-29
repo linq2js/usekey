@@ -1,5 +1,5 @@
 {
-  "name": "objkey",
+  "name": "keyof",
   "version": "0.0.3",
   "description": "Object key generator",
   "author": "linq2js <linqtojs@gmail.com>",
@@ -32,5 +32,5 @@
     "ts-node": "ts-node",
     "build": "rimraf dist && tsc"
   },
-  "gitHead": "5df0159afe92ba107b1f56a362ade6f893d426c0"
+  "gitHead": "2927b9655baea6f1527ee442da5dd049be04c9d9"
 }
