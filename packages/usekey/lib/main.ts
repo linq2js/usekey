@@ -7,6 +7,10 @@ interface GetKey extends Function {
   (value: any): any;
 }
 
+// we use WeakMap to make sure all object references will be disposed when they are not in use
+const keys = new WeakMap<any, number>();
+let uniqueId = 1;
+
 /**
  *
  * @param prefix
@@ -14,9 +18,6 @@ interface GetKey extends Function {
  */
 const useKey = (prefix = ":") => {
   return useState(() => {
-    // we use WeakMap to make sure all object references will be disposed when they are not in use
-    const keys = new WeakMap<any, number>();
-    let uniqueId = 1;
     return (value: any) => {
       const type = typeof value;
       const isObject = value && (type === "object" || type === "function");
